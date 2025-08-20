@@ -35,7 +35,7 @@ export const RoundTracker = (props: CounterProps) => {
 
     return(
         <div>
-            <p>Round {count}</p>
+            <h2>Round {count}</h2>
             <button onClick={increaseCount}>+</button>
             <button onClick={decreaseCount}>-</button>
             <button onClick={resetCount}>Reset</button>
